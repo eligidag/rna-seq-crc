@@ -87,7 +87,7 @@ The tumor/normal comparison is driven by a subset of genes with clear fold chang
 ![Volcano plot](results/deseq2_results_summary_3patients/volcano_plot_3patients_top5_up_down.png)
 
 ### Top differentially expressed genes
-The heatmap plot of top 30 differentially expressed genes shows a consistent tumor/normal pattern, especially for patients 2 and 3.
+The heatmap plot of top differentially expressed genes shows a consistent tumor/normal pattern, especially for patients 2 and 3.
 
 ![Heatmap plot of top differentially expressed genes](results/deseq2_top_heatmap_3patients/heatmap_top_de_genes_3patients.png)
 
