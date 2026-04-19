@@ -82,17 +82,17 @@ Tumor and normal samples separate across the main variation in the dataset, with
 ![PCA plot](results/deseq2_exploration_3patients/pca_3patients.png)
 
 ### Volcano plot
-The tumor-normal comparison is driven by a subset of genes with clear fold changes and adjusted p-values.
+The tumor/normal comparison is driven by a subset of genes with clear fold changes and adjusted p-values.
 
 ![Volcano plot](results/deseq2_results_summary_3patients/volcano_plot_3patients_top5_up_down.png)
 
 ### Top differentially expressed genes
-The top-gene heatmap shows a consistent tumor-normal pattern, especially for patients 2 and 3.
+The top-gene heatmap shows a consistent tumor/normal pattern, especially for patients 2 and 3.
 
 ![Top-gene heatmap](results/deseq2_top_heatmap_3patients/heatmap_top_de_genes_3patients.png)
 
 ### GO Biological Process enrichment
-Upregulated genes are mainly enriched for extracellular matrix, collagen, and tissue structure-related processes.
+Upregulated genes are mainly enriched for extracellular matrix, collagen, and tissue structure related processes.
 
 ![GO BP enrichment](results/enrichment_3patients/go_bp_upregulated_in_tumor_dotplot.png)
 
