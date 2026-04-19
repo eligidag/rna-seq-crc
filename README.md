@@ -38,29 +38,29 @@ The workflow was run in Ubuntu/WSL and includes:
 10. Exploratory plots
 11. Results summary tables
 12. Volcano plots
-13. Top gene heatmap
-14. Over-representation analysis for upregulated and downregulated gene sets
+13. Heatmap plot of top differentially expressed genes 
+14. Overrepresentation analysis for upregulated and downregulated gene sets
 
 ## Envi
 
-- Ubuntu / WSL
-- bash
+ Ubuntu / WSL
+ bash
 
 ## Tools
 
-- SRA Toolkit
-- FastQC
-- Salmon
-- R
-- Bioconductor
-- tximport
-- DESeq2
-- clusterProfiler
-- ReactomePA
-- ggplot2
-- pheatmap
-- AnnotationDbi
-- org.Hs.eg.db
+ SRA Toolkit
+ FastQC
+ Salmon
+ R
+ Bioconductor
+ tximport
+ DESeq2
+ clusterProfiler
+ ReactomePA
+ ggplot2
+ pheatmap
+ AnnotationDbi
+ org.Hs.eg.db
 
 ## What the analysis shows
 
@@ -70,7 +70,7 @@ The normal samples cluster more tightly, while the tumor samples are more variab
 
 Patients 2 and 3 show the clearest shift between "normal" and "tumor" conditions. Patient 5 still differs, but the tumor sample stays closer to the normal samples than the other two tumor samples.
 
-The volcano plot and top gene heatmap show that the tumor/normal difference is driven by a subset of genes with consistent expression changes across the paired samples, especially for patients 2 and 3.
+The volcano plot and heatmap plot of top differentially expressed genes show that the tumor/normal difference is driven by a subset of genes with consistent expression changes across the paired samples, especially for patients 2 and 3.
 
 The enrichment analysis helps summarize the differential expression results at pathway and process level. Genes upregulated in tumor are mainly linked to extracellular matrix, collagen, and tissue structure related processes. Genes downregulated in tumor are mainly linked to immune related and transport/signaling related processes.
 
@@ -82,14 +82,14 @@ Tumor and normal samples separate across the main variation in the dataset, with
 ![PCA plot](results/deseq2_exploration_3patients/pca_3patients.png)
 
 ### Volcano plot
-The tumor/normal comparison is driven by a subset of genes with clear fold changes and adjusted p-values.
+The tumor/normal comparison is driven by a subset of genes with clear fold changes and adjusted pvalues.
 
 ![Volcano plot](results/deseq2_results_summary_3patients/volcano_plot_3patients_top5_up_down.png)
 
 ### Top differentially expressed genes
-The top-gene heatmap shows a consistent tumor/normal pattern, especially for patients 2 and 3.
+The heatmap plot of top 30 differentially expressed genes shows a consistent tumor/normal pattern, especially for patients 2 and 3.
 
-![Top-gene heatmap](results/deseq2_top_heatmap_3patients/heatmap_top_de_genes_3patients.png)
+![Heatmap plot of top differentially expressed genes](results/deseq2_top_heatmap_3patients/heatmap_top_de_genes_3patients.png)
 
 ### GO Biological Process enrichment
 Upregulated genes are mainly enriched for extracellular matrix, collagen, and tissue structure related processes.
@@ -97,7 +97,7 @@ Upregulated genes are mainly enriched for extracellular matrix, collagen, and ti
 ![GO BP enrichment](results/enrichment_3patients/go_bp_upregulated_in_tumor_dotplot.png)
 
 ### Reactome enrichment
-Reactome enrichment shows the same broad pattern, with extracellular matrix and collagen-related pathways among the strongest signals.
+Reactome enrichment shows the same broad pattern, with extracellular matrix and collagen related pathways among the strongest signals.
 
 ![Reactome enrichment](results/enrichment_3patients/reactome_upregulated_in_tumor_dotplot.png)
 
@@ -126,7 +126,7 @@ The main analysis was run in this order:
    Runs Salmon quantification for the 6 selected samples.
 
 4. `tximport_3patients.R`  
-   Imports Salmon quantification files into R and creates gene-level matrices.
+   Imports Salmon quantification files into R and creates gene level matrices.
 
 5. `deseq2_3patients.R`  
    Runs the paired differential expression analysis with DESeq2.
