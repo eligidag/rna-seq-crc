@@ -77,7 +77,7 @@ The enrichment analysis helps summarize the differential expression results at p
 ## Key results
 
 ### PCA
-Tumor and normal samples separate across the main variation in the dataset, with patient 5 showing a weaker shift than patients 2 and 3.
+Tumor and normal samples separate across the main variation in the dataset, with patient 5 showing a minimal shift in comparison to patients 2 and 3.
 
 ![PCA plot](results/deseq2_exploration_3patients/pca_3patients.png)
 
