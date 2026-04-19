@@ -109,7 +109,7 @@ Done.
 
 - `scripts/` – analysis scripts
 - `data/metadata/` – metadata and subset definition files
-- `reference/` – reference files and Salmon index
+- `reference/` – reference derived helper files used in the workflow (`tx2gene.tsv`)
 - `results/` – analysis outputs
 
 ## Script order
