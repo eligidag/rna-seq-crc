@@ -1,0 +1,7 @@
+sample_name	srr_accession	fastq_1_name	fastq_2_name
+AMC_2_tumor	SRR975551	AMC_2_tumor_1.fastq.gz	AMC_2_tumor_2.fastq.gz
+AMC_3_tumor	SRR975552	AMC_3_tumor_1.fastq.gz	AMC_3_tumor_2.fastq.gz
+AMC_5_tumor	SRR975553	AMC_5_tumor_1.fastq.gz	AMC_5_tumor_2.fastq.gz
+AMC_2_normal	SRR975569	AMC_2_normal_1.fastq.gz	AMC_2_normal_2.fastq.gz
+AMC_3_normal	SRR975570	AMC_3_normal_1.fastq.gz	AMC_3_normal_2.fastq.gz
+AMC_5_normal	SRR975571	AMC_5_normal_1.fastq.gz	AMC_5_normal_2.fastq.gz

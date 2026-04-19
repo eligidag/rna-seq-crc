@@ -1,0 +1,35 @@
+# Raw sequencing data
+data/raw/
+*.fastq
+*.fastq.gz
+
+# Alignment files
+*.bam
+*.sam
+*.cram
+
+# R temporary/session files
+.Rhistory
+.RData
+.Rproj.user/
+
+# Quarto cache
+.quarto/
+
+# System junk
+.DS_Store
+Thumbs.db
+
+# Windows metadata
+*.Zone.Identifier
+
+# Temporary / backup files
+data/metadata/copies/
+
+# Intermediate metadata files not used in final workflow
+data/metadata/gse50760_analysis_subset_with_srr.tsv
+data/metadata/gse50760_download_plan.tsv
+
+# Large intermediate result folders
+results/fastqc_3patients/
+results/salmon_quant_3patients/

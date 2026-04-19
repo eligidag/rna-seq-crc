@@ -1,0 +1,7 @@
+sample,fastq_1,fastq_2,strandedness
+AMC_2_tumor,/home/loaf/projects/rna-seq-crc/data/raw/fastq/AMC_2_tumor_1.fastq.gz,/home/loaf/projects/rna-seq-crc/data/raw/fastq/AMC_2_tumor_2.fastq.gz,auto
+AMC_3_tumor,/home/loaf/projects/rna-seq-crc/data/raw/fastq/AMC_3_tumor_1.fastq.gz,/home/loaf/projects/rna-seq-crc/data/raw/fastq/AMC_3_tumor_2.fastq.gz,auto
+AMC_5_tumor,/home/loaf/projects/rna-seq-crc/data/raw/fastq/AMC_5_tumor_1.fastq.gz,/home/loaf/projects/rna-seq-crc/data/raw/fastq/AMC_5_tumor_2.fastq.gz,auto
+AMC_2_normal,/home/loaf/projects/rna-seq-crc/data/raw/fastq/AMC_2_normal_1.fastq.gz,/home/loaf/projects/rna-seq-crc/data/raw/fastq/AMC_2_normal_2.fastq.gz,auto
+AMC_3_normal,/home/loaf/projects/rna-seq-crc/data/raw/fastq/AMC_3_normal_1.fastq.gz,/home/loaf/projects/rna-seq-crc/data/raw/fastq/AMC_3_normal_2.fastq.gz,auto
+AMC_5_normal,/home/loaf/projects/rna-seq-crc/data/raw/fastq/AMC_5_normal_1.fastq.gz,/home/loaf/projects/rna-seq-crc/data/raw/fastq/AMC_5_normal_2.fastq.gz,auto

@@ -1,0 +1,6 @@
+DESeq2 results summary
+Total genes in results table: 41635
+Genes with adjusted p-values: 19033
+Significant genes (padj < 0.05): 394
+Upregulated genes in tumor (padj < 0.05 and log2FC >= 1): 143
+Downregulated genes in tumor (padj < 0.05 and log2FC <= -1): 251

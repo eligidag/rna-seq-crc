@@ -1,0 +1,55 @@
+geo_sample_id	sample_type	sample_code	patient_id	use_for_project
+GSM1228184	primary colorectal cancer	AMC_2-1	2	yes
+GSM1228185	primary colorectal cancer	AMC_3-1	3	yes
+GSM1228186	primary colorectal cancer	AMC_5-1	5	yes
+GSM1228187	primary colorectal cancer	AMC_6-1	6	yes
+GSM1228188	primary colorectal cancer	AMC_7-1	7	yes
+GSM1228189	primary colorectal cancer	AMC_8-1	8	yes
+GSM1228190	primary colorectal cancer	AMC_9-1	9	yes
+GSM1228191	primary colorectal cancer	AMC_10-1	10	yes
+GSM1228192	primary colorectal cancer	AMC_12-1	12	yes
+GSM1228193	primary colorectal cancer	AMC_13-1	13	yes
+GSM1228194	primary colorectal cancer	AMC_17-1	17	yes
+GSM1228195	primary colorectal cancer	AMC_18-1	18	yes
+GSM1228196	primary colorectal cancer	AMC_19-1	19	yes
+GSM1228197	primary colorectal cancer	AMC_20-1	20	yes
+GSM1228198	primary colorectal cancer	AMC_21-1	21	yes
+GSM1228199	primary colorectal cancer	AMC_22-1	22	yes
+GSM1228200	primary colorectal cancer	AMC_23-1	23	yes
+GSM1228201	primary colorectal cancer	AMC_24-1	24	yes
+GSM1228202	normal colon	AMC_2-2	2	yes
+GSM1228203	normal colon	AMC_3-2	3	yes
+GSM1228204	normal colon	AMC_5-2	5	yes
+GSM1228205	normal colon	AMC_6-2	6	yes
+GSM1228206	normal colon	AMC_7-2	7	yes
+GSM1228207	normal colon	AMC_8-2	8	yes
+GSM1228208	normal colon	AMC_9-2	9	yes
+GSM1228209	normal colon	AMC_10-2	10	yes
+GSM1228210	normal colon	AMC_12-2	12	yes
+GSM1228211	normal colon	AMC_13-2	13	yes
+GSM1228212	normal colon	AMC_17-2	17	yes
+GSM1228213	normal colon	AMC_18-2	18	yes
+GSM1228214	normal colon	AMC_19-2	19	yes
+GSM1228215	normal colon	AMC_20-2	20	yes
+GSM1228216	normal colon	AMC_21-2	21	yes
+GSM1228217	normal colon	AMC_22-2	22	yes
+GSM1228218	normal colon	AMC_23-2	23	yes
+GSM1228219	normal colon	AMC_24-2	24	yes
+GSM1228220	metastasized cancer	AMC_2-3	2	no
+GSM1228221	metastasized cancer	AMC_3-3	3	no
+GSM1228222	metastasized cancer	AMC_5-3	5	no
+GSM1228223	metastasized cancer	AMC_6-3	6	no
+GSM1228224	metastasized cancer	AMC_7-3	7	no
+GSM1228225	metastasized cancer	AMC_8-3	8	no
+GSM1228226	metastasized cancer	AMC_9-3	9	no
+GSM1228227	metastasized cancer	AMC_10-3	10	no
+GSM1228228	metastasized cancer	AMC_12-3	12	no
+GSM1228229	metastasized cancer	AMC_13-3	13	no
+GSM1228230	metastasized cancer	AMC_17-3	17	no
+GSM1228231	metastasized cancer	AMC_18-3	18	no
+GSM1228232	metastasized cancer	AMC_19-3	19	no
+GSM1228233	metastasized cancer	AMC_20-3	20	no
+GSM1228234	metastasized cancer	AMC_21-3	21	no
+GSM1228235	metastasized cancer	AMC_22-3	22	no
+GSM1228236	metastasized cancer	AMC_23-3	23	no
+GSM1228237	metastasized cancer	AMC_24-3	24	no

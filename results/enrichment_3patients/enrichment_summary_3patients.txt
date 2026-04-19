@@ -1,0 +1,8 @@
+Enrichment analysis summary
+Tested background genes mapped to Entrez: 16845
+Upregulated genes mapped to Entrez:  130
+Downregulated genes mapped to Entrez: 228
+GO BP terms enriched in upregulated genes: 15
+GO BP terms enriched in downregulated genes: 34
+Reactome terms enriched in upregulated genes: 22
+Reactome terms enriched in downregulated genes: 13

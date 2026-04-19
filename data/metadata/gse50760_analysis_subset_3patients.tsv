@@ -1,0 +1,7 @@
+geo_sample_id	sample_type	sample_code	patient_id	use_for_project	sra_accession	srr_accession
+GSM1228184	primary colorectal cancer	AMC_2-1	2	yes	SRX347887	SRR975551
+GSM1228185	primary colorectal cancer	AMC_3-1	3	yes	SRX347888	SRR975552
+GSM1228186	primary colorectal cancer	AMC_5-1	5	yes	SRX347889	SRR975553
+GSM1228202	normal colon	AMC_2-2	2	yes	SRX347905	SRR975569
+GSM1228203	normal colon	AMC_3-2	3	yes	SRX347906	SRR975570
+GSM1228204	normal colon	AMC_5-2	5	yes	SRX347907	SRR975571
