@@ -38,7 +38,7 @@ The workflow was run in Ubuntu/WSL and includes:
 10. Exploratory plots
 11. Results summary tables
 12. Volcano plots
-13. Heatmap plot of top differentially expressed genes 
+13. Heatmap of top differentially expressed genes 
 14. Overrepresentation analysis for upregulated and downregulated gene sets
 
 ## Envi
@@ -70,7 +70,7 @@ The normal samples cluster more tightly, while the tumor samples are more variab
 
 Patients 2 and 3 show the clearest shift between "normal" and "tumor" conditions. Patient 5 still differs, but the tumor sample stays closer to the normal samples than the other two tumor samples.
 
-The volcano plot and heatmap plot of top differentially expressed genes show that the tumor/normal difference is driven by a subset of genes with consistent expression changes across the paired samples, especially for patients 2 and 3.
+The volcano plot and heatmap of top differentially expressed genes show that the tumor/normal difference is driven by a subset of genes with consistent expression changes across the paired samples, especially for patients 2 and 3.
 
 The enrichment analysis helps summarize the differential expression results at pathway and process level. Genes upregulated in tumor are mainly linked to extracellular matrix, collagen, and tissue structure related processes. Genes downregulated in tumor are mainly linked to immune related and transport/signaling related processes.
 
@@ -82,14 +82,14 @@ Tumor and normal samples separate across the main variation in the dataset, with
 ![PCA plot](results/deseq2_exploration_3patients/pca_3patients.png)
 
 ### Volcano plot
-The tumor/normal comparison is driven by a subset of genes with clear fold changes and adjusted pvalues.
+The tumor/normal comparison is driven by a subset of genes with clear fold changes and adjusted p-values.
 
 ![Volcano plot](results/deseq2_results_summary_3patients/volcano_plot_3patients_top5_up_down.png)
 
 ### Top differentially expressed genes
-The heatmap plot of top differentially expressed genes shows a consistent tumor/normal pattern, especially for patients 2 and 3.
+The heatmap of top differentially expressed genes shows a consistent tumor/normal pattern, especially for patients 2 and 3.
 
-![Heatmap plot of top differentially expressed genes](results/deseq2_top_heatmap_3patients/heatmap_top_de_genes_3patients.png)
+![Heatmap of top differentially expressed genes](results/deseq2_top_heatmap_3patients/heatmap_top_de_genes_3patients.png)
 
 ### GO Biological Process enrichment
 Upregulated genes are mainly enriched for extracellular matrix, collagen, and tissue structure related processes.
