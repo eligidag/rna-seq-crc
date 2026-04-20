@@ -10,7 +10,7 @@ The project goes through a full RNA-seq workflow from raw data through quantific
 
 Public dataset: GSE50760
 
-The final analysis scope, due to time and space constraints, is a reduced paired subset of 3 patients:
+The final analysis scope, due to processing power and storage constraints, is a subset of 3 patients:
 - patient 2
 - patient 3
 - patient 5
@@ -48,19 +48,19 @@ The workflow was run in Ubuntu/WSL and includes:
 
 ## Tools
 
- SRA Toolkit
- FastQC
- Salmon
- R
- Bioconductor
- tximport
- DESeq2
- clusterProfiler
- ReactomePA
- ggplot2
- pheatmap
- AnnotationDbi
- org.Hs.eg.db
+- SRA Toolkit
+- FastQC
+- Salmon
+- R
+- Bioconductor
+- tximport
+- DESeq2
+- clusterProfiler
+- ReactomePA
+- ggplot2
+- pheatmap
+- AnnotationDbi
+- org.Hs.eg.db
 
 ## What the analysis shows
 
